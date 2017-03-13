@@ -20,6 +20,9 @@ li {
   font-size: 1.5em;
   margin-left: 15px;
 }
+.entries {
+  text-align: center;
+}
 .entry {
   width: 48%;
   max-width: 214px;
@@ -110,8 +113,15 @@ li {
   color: white;
   margin: 0px;
 }
-/* tablet and above */
 @media only screen and (min-width: 768px) {
+  .head {
+    margin-bottom: 30px;
+  }
+  .entry {
+    margin-right: 3%;
+  }
+}
+@media only screen and (min-width: 1024px) {
   /* loading */
   .loading {
     width: 50%;
@@ -133,5 +143,6 @@ li {
     width: initial;
     max-width: initial;
     min-height: initial;
+    margin-right: 0px;
   }
 }
