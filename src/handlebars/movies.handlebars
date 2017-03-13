@@ -1,0 +1,18 @@
+<div class="head">
+           <h1 class="active">Home</h1>
+           <a href="#history" class="link">History</a>
+       </div>
+        <div class="entries">
+            <ul>
+                {{#entries}}
+                <li class="entry">
+                    <a href=#{{id}}>
+                    {{#images}}
+                    <img src={{this.url}}/>
+                    {{/images}}
+                    <div class="entry_title">{{this.title}}</div>  
+                </a>
+                </li>
+                {{/entries}}
+            </ul>
+        </div>
