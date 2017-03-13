@@ -25,4 +25,4 @@ http://localhost:8080/#moviename
 Will start the movie 
 ```
 
-note: Production configuratio are not being added
+Note: Production configuration are not being added
